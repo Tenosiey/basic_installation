@@ -1,21 +1,23 @@
 import os
 
-
-if __name__ == "__main__":
+def basic_tools():
     # Update/Upgrade the System
 
-    print("###################################################\n")
+    print("########################################################\n")
     print("Starte das Basic Installation Script!\n")
-    print("###################################################")
+    print("########################################################")
 
     os.system("sudo apt update")
     os.system("sudo apt upgrade -y")
     os.system("sudo apt install neofetch -y")
 
-    print("###################################################")
+    print("########################################################")
 
     # Final steps
 
     os.system("neofetch")
 
-    print("###################################################")
+    print("########################################################")
+
+if __name__ == "__main__":
+    basic_tools()
