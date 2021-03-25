@@ -1,7 +1,7 @@
 import os
 import basic
 
-basic_done = input("Wurde das basic.py Script bereits ausgeführt?")
+basic_done = input("Wurde das basic.py Script bereits ausgeführt?\ny/n\n")
 
 if basic_done == "n":
     basic.basic_tools()
