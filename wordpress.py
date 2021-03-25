@@ -28,4 +28,4 @@ if __name__ == "__main__":
         wordpress_install()
 
     else:
-        print("Was willst du denn von mir?!\nLern mal tippen du Spast...")
+        print("Junge? The fuq hast du gemacht?")
