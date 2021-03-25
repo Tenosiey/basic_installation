@@ -1,12 +1,5 @@
 # basic_installation
 
-Ein Scrip basierend auf Python welches folgende Befehle ausführt:
+Ergibt sowieso alles keinen Sinn mehr was hier so steht also kann ich es auch sein lassen...
 
-sudo apt update
-
-sudo apt upgrade -y
-
-sudo apt install neofetch -y
-
-
-neofetch
+--WIP--
