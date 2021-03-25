@@ -1,14 +1,14 @@
 import os
 import basic
 
-basic_tools_done = input("Wurde das basic.py Script bereits ausgeführt?\ny/n\n")
-
 def webserver_install():
     print("Installiere den Webserver!")
 
     os.system("sudo apt install apache2 -y")
 
 if __name__ == "__main__":
+    basic_tools_done = input("Wurde das basic.py Script bereits ausgeführt?\ny/n\n")
+
     if basic_tools_done == "n":
         basic.basic_tools_install()
         webserver_install()
