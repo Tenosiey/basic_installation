@@ -3,7 +3,7 @@ import os
 # Install and Upgrade the System
 
 print("###################################################\n")
-print("Starte das Basic Installation Script!\n")
+print("Starte das Main Installation Script!\n")
 print("###################################################")
 
 os.system("sudo apt update")
