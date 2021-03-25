@@ -1,6 +1,6 @@
 import os
 
-def basic_tools():
+def basic_tools_install():
     # Update/Upgrade the System
 
     print("########################################################\n")
@@ -20,4 +20,4 @@ def basic_tools():
     print("########################################################")
 
 if __name__ == "__main__":
-    basic_tools()
+    basic_tools_install()
