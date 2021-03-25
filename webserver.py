@@ -8,13 +8,14 @@ def webserver_install():
 
     os.system("sudo apt install apache2 -y")
 
-if basic_tools_done == "n":
-    basic.basic_tools_install()
-    webserver_install()
+if __name__ == "__main__":
+    if basic_tools_done == "n":
+        basic.basic_tools_install()
+        webserver_install()
+    
+    elif basic_tools_done == "y":
+        print("Dann nicht...")
+        webserver_install()
 
-elif basic_tools_done == "y":
-    print("Dann nicht...")
-    webserver_install()
-
-else:
-    print("Was willst du denn von mir?!\nLern mal tippen du Spast...")
+    else:
+        print("Was willst du denn von mir?!\nLern mal tippen du Spast...")
