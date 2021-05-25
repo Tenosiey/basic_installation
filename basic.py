@@ -11,7 +11,7 @@ def basic_tools_install():
     os.system("sudo apt upgrade -y")
     os.system("sudo apt install neofetch -y")
 
-    print("########################################################")
+    print("#########################################################")
 
     # Final steps
 
